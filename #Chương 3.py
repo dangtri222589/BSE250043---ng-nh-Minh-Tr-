@@ -29,4 +29,16 @@ except ValueError:
 
 print("Danh sách màu sắc hiện tại:")
 for mau in mau_sac:
+
     print(mau)
+
+#Bai2
+ban_be = ["An", "Bình", "Chi"]
+print("Danh sách ban đầu:")
+print(ban_be)
+ban_be.append("Dũng")
+print("\nDanh sách sau khi thêm bạn mới:")
+print(ban_be)
+ban_be.pop(1)
+print("\nDanh sách sau khi xóa người bạn ở vị trí thứ hai:")
+print(ban_be)
